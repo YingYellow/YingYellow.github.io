@@ -3,29 +3,26 @@
 #
 
 # 网站基本信息
-title: Haofan Wang
-name: Haofan Wang
-description: 王浩帆
-email: haofanwang.ai@gmail.com
+title: Ying Huang
+name: Ying Huang
+description: 黄迎
+email: ying.huang@uta.edu
 
 # 作者信息
 author:
-  name: Haofan Wang
-  name_zh: 王浩帆
-  email: haofanwang.ai@gmail.com
-  school_email: haofanw@alumni.cmu.edu
+  name: Ying Huang
+  name_zh: 黄迎
+  email: ying.huang@uta.edu
 
 # 社交媒体链接
 social:
-  googlescholar: EaMsuB0AAAAJ
-  github: haofanwang
-  linkedin: haofan-frank-wang-366782130
-  twitter: Haofan_Wang
-  huggingface: wanghaofan
+  # googlescholar: EaMsuB0AAAAJ
+  # github: haofanwang
+  # linkedin: haofan-frank-wang-366782130
 
 # 网站设置
 baseurl: "" # 子路径，如 /blog
-url: "https://haofanwang.github.io" # 你的网站 URL
+url: "https://yinghuang.github.io" # 你的网站 URL
 
 # 构建设置
 markdown: kramdown
@@ -59,7 +56,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Haofan Wang"
+      author: "Ying Huang"
 
 # 其他设置
 timezone: America/New_York

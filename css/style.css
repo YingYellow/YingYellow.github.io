@@ -126,6 +126,18 @@ nav {
   padding-top : 70px;
 }
 
+.home-wrapper .picture {
+  margin-left: 20px;
+}
+
+.home-wrapper .picture {
+  margin-right: 80px;
+}
+
+.highlight {
+  font-weight: 600;
+}
+
 .home-wrapper .picture img {
   width : 100%;
 }
@@ -198,13 +210,20 @@ nav {
 
 .pub-wrapper .title a {
   color       : black;
+  /* color           : var(--cardinal); */
   font-weight : var(--serif-weight);
   font-family : var(--serif-font);
   font-size   : 16px;
 }
 
+
 .pub-wrapper .title a:hover {
   color : black;
+}
+
+a:hover {
+  color: #f09228;
+  text-decoration: none;
 }
 
 .pub-wrapper .authors {
