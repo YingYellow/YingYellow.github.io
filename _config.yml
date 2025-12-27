@@ -22,7 +22,7 @@ social:
 
 # 网站设置
 baseurl: "" # 子路径，如 /blog
-url: "https://yinghuang.github.io" # 你的网站 URL
+url: "https://yingyellow.github.io/" # 你的网站 URL
 
 # 构建设置
 markdown: kramdown
