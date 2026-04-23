@@ -347,3 +347,42 @@ a:hover {
 .exp-wrapper .location {
   color : var(--light-gray);
 }
+
+/*------------------
+ * Blog List
+ *------------------*/
+
+.blog-list {
+  list-style : none;
+  padding    : 0;
+  margin     : 0;
+}
+
+.blog-list-item {
+  display         : flex;
+  justify-content : space-between;
+  align-items     : baseline;
+  padding         : 6px 0;
+  border-bottom   : 1px solid var(--very-light-gray);
+}
+
+.blog-list-item:last-child {
+  border-bottom : none;
+}
+
+.blog-list-item a {
+  color           : var(--cardinal);
+  text-decoration : none;
+}
+
+.blog-list-item a:hover {
+  color           : var(--cardinal);
+  text-decoration : underline;
+}
+
+.blog-list-date {
+  color      : var(--dark-gray);
+  font-size  : 13px;
+  flex-shrink: 0;
+  margin-left: 20px;
+}

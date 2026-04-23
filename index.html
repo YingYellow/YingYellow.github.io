@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -236,6 +238,32 @@
         </div>
       </div>
     
+      <div class="sec-wrapper bio-wrapper" id="blog">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col col-wrapper">
+              <div class="section-title">Blog</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-wrapper">
+              {% if site.posts.size > 0 %}
+              <ul class="blog-list">
+                {% for post in site.posts %}
+                <li class="blog-list-item">
+                  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                  <span class="blog-list-date">{{ post.date | date: "%B %d, %Y" }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+              {% else %}
+              <p>Coming soon...</p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="sec-wrapper bio-wrapper" id="misc">
         <div class="container-fluid">
           <div class="row">
